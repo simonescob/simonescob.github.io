@@ -9,14 +9,20 @@ body{
 	margin: 0;
 }
 
+/* other classes */
+
 .disable{
 	display: none !important;
 }
 
-/* header */
-
-header{
+.animati{
+	transition: ease-in-out;
+	transition-duration: .6s;
 }
+
+/* other classes */
+
+/* header */
 
 .header-menu{
 	margin-top: 10px;
@@ -28,7 +34,6 @@ header{
 .header-fondo{
 	position: absolute;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -38,6 +43,13 @@ header{
 	background-image: url("../images/fondo.jpeg");
 	background-size: cover;
 	background-position: center;
+}
+
+.header-fondo .img-yo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-menu a{
@@ -72,6 +84,8 @@ header{
 
 /* content */
 
+/* media queries */
+
 @media screen and (max-height: 400px){
 	.header-fondo img{
 		width: 30%;
@@ -95,3 +109,8 @@ header{
 	}
 }
 
+/* media queries */
+
+/* animations */
+
+/* animations */
