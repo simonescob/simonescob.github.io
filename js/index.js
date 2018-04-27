@@ -6,7 +6,7 @@ var me = $(".img-yo");
 
 home.click(() => {
 	hf.css({
-		"background-image":" url('../images/fondo.jpeg')",
+		"background-image":" url('/../images/fondo.jpeg')",
 	})
 	hf.addClass("animati")
 	me.delay(800).removeClass("disable")
@@ -15,7 +15,7 @@ home.click(() => {
 
 prj.click(() => {
 	hf.css({
-		"background-image":" url('../images/projects.jpeg')",
+		"background-image":" url('/../images/projects.jpeg')",
 	})
 	hf.addClass("animati")
 	me.addClass("disable")
@@ -23,7 +23,7 @@ prj.click(() => {
 
 about.click(() => {
 	hf.css({
-		"background-image":" url('../images/about.jpeg')",
+		"background-image":" url('/../images/about.jpeg')",
 	})
 	hf.addClass("animati")
 	me.addClass("disable")
