@@ -7,7 +7,7 @@ var list = $(".list-projects");
 
 home.click(() => {
 	hf.css({
-		"background-image":" url('../images/fondo.jpeg')",
+		"background-image":" url('images/fondo.jpeg')",
 	})
 	hf.addClass("animati")
 	me.removeClass("disable")
@@ -18,7 +18,7 @@ home.click(() => {
 
 prj.click(() => {
 	hf.css({
-		"background-image":" url('../images/projects.jpeg')",
+		"background-image":" url('images/projects.jpeg')",
 	})
 	list.removeClass("disable")
 	hf.addClass("animati")
@@ -27,7 +27,7 @@ prj.click(() => {
 
 about.click(() => {
 	hf.css({
-		"background-image":" url('../images/about.jpeg')",
+		"background-image":" url('images/about.jpeg')",
 	})
 	list.addClass("disable")
 	hf.addClass("animati")
