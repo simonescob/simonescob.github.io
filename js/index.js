@@ -4,15 +4,18 @@ var about = $("#about");
 var hf = $(".header-fondo");
 var me = $(".img-yo");
 var list = $(".list-projects");
+var contact = $(".contact");
 
 home.click(() => {
 	hf.css({
-		"background-image":" url(images/fondo.jpeg)",
+		"background-image":" url(images/home.jpeg)",
 	})
-	hf.addClass("animati")
 	me.removeClass("disable")
-	me.addClass("animati")
 	list.addClass("disable")
+	contact.addClass("disable")
+	
+	hf.addClass("animati")
+	me.addClass("animati")
 });
 
 
@@ -21,15 +24,19 @@ prj.click(() => {
 		"background-image":" url(images/projects.jpeg)",
 	})
 	list.removeClass("disable")
-	hf.addClass("animati")
+	contact.addClass("disable")
 	me.addClass("disable")
+	
+	hf.addClass("animati")
 });
 
 about.click(() => {
 	hf.css({
 		"background-image":" url(images/about.jpeg)",
 	})
+	contact.removeClass("disable")
 	list.addClass("disable")
-	hf.addClass("animati")
 	me.addClass("disable")
+	
+	hf.addClass("animati")
 });
