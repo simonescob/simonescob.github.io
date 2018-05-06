@@ -72,7 +72,7 @@ body{
 	height: 100%;
 	z-index: -1;
 	top: 0;
-	background-image: url("../images/fondo.jpeg");
+	background-image: url("images/fondo.jpeg");
 	background-size: cover;
 	background-position: center;
 }
