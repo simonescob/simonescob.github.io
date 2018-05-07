@@ -1,0 +1,11 @@
+{
+  "name": "Portfolio",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/simonescob/simonescob.github.io.git",
+  "author": "Simon Escobar <snescobar25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.13.2"
+  }
+}
