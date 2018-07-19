@@ -12,10 +12,10 @@ body{
 
 
 /* other classes */
-
+/* 
 .disable{
 	display: none !important;
-}
+} */
 
 .animati{
 	transition: ease-in-out;
