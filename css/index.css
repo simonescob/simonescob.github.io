@@ -58,27 +58,27 @@ body{
 
 /* header */
 
-.header-menu{
-	margin-top: 10px;
+.menu-box{
+	position: relative;
+}
+
+.menu{
+	margin: 10px 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
-.header-fondo{
-	/* position: absolute; */
+.fondo{
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	z-index: -1;
-	top: 0;
-	background-size: cover;
-	background-position: center;
 }
 
-.header-menu a{
+.menu a{
 	text-decoration: none;
 	font-size: 28px;
 	font-weight: bold;
@@ -97,53 +97,51 @@ body{
 	text-align: justify;
 }
 
-.home{
+.init{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	background-color: rgba(77, 77, 77, 0.164);
-	/* position: absolute; */
+	background-color: rgba(32, 147, 255, 0.61);
+	position: relative;
 	width: 100%;
-	height: 100%;
-	
-	top: 0;
-	z-index: -1;
-	background-image: url("../images/home.jpeg");
+	height: 595px;
 }
 
-.home .img-yo{
+.init .img-yo{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #0069f3be;
+	padding: 5%;
+	width: 70%;
+	border-radius: 20px;
 }
-
-.home img{
-	border-radius: 50%;
-}
-
-.home h1{
+.init .img-yo h2{
+	text-align: center;
 	color: #ffffff;
 }
 
-.home h1{
+.init img{
+	border-radius: 50%;
+}
+
+.init h1{
+	color: #ffffff;
+}
+
+.init h1{
 	padding: 0 20px;
 }
 
 .list-projects{
-	/* position: absolute; */
+	background-color: rgba(0, 231, 96, 0.623);
+	position: relative;
 	text-align: center;
 	overflow: auto;
-	height: 100%;
-	background-color: rgba(77, 77, 77, 0.342);
-	top: 0;
-	z-index: -1;
-
-	background-image: url("../images/projects.jpeg");
-	background-size: cover;
-	background-position: center;
-	
+	width: 100%;
+	height: 700px;
 }
 
 .list-projects ul{
@@ -167,7 +165,7 @@ body{
 }
 
 
-.list-projects h1#title{
+.list-projects h1#title-projects{
 	margin-top: 60px;
 	color: white;
 }
@@ -185,18 +183,11 @@ body{
 	align-items: center;
 
 	text-align: center;
-	background: rgba(77, 77, 77, 0.342);
+	background: rgba(231, 0, 0, 0.575);
 
-	/* position: absolute; */
+	position: relative;
 	width: 100%;
-	height: 100%;
-
-	top: 0;
-	z-index: -1;
-
-	background-image: url("../images/about.jpeg");
-	background-size: cover;
-	background-position: center;
+	height: 400px;
 }
 
 .contact .icons{
@@ -204,7 +195,6 @@ body{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
 }
 
 .contact h1{
