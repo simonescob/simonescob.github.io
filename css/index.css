@@ -23,7 +23,6 @@ body{
 }
 
 .card {
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -88,6 +87,20 @@ body{
 
 /* header */
 
+header{
+	background-color: #0079FF;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	padding: 8% 10%;
+}
+
+header{
+	color: white;
+}
+
 /* content */
 
 .cont{
@@ -101,41 +114,37 @@ body{
 	justify-content: center;
 	align-items: center;
 
-	background-color: rgba(32, 147, 255, 0.61);
 	position: relative;
-	width: 100%;
-	height: 595px;
+	padding-bottom: 12%;
 }
 
-.init .img-yo{
+.init .me{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	background-color: #0069f3be;
-	padding: 5%;
-	width: 70%;
-	border-radius: 20px;
+	padding: 0 5%;
 }
-.init .img-yo h2{
+
+.init .me-desc{
+	margin: 0 10%;
+	padding: 30px;
+	background-color: #003C7F;
+	border-radius: 20px;
+	font-size: 30px;
 	text-align: center;
-	color: #ffffff;
 }
 
 .init img{
 	border-radius: 50%;
+	width: 270px;
 }
 
 .init h1{
 	color: #ffffff;
 }
 
-.init h1{
-	padding: 0 20px;
-}
-
 .list-projects{
-	background-color: rgba(0, 231, 96, 0.623);
+	background-color: #006DE5;
 	position: relative;
 	text-align: center;
 	overflow: auto;
@@ -182,7 +191,7 @@ body{
 	align-items: center;
 
 	text-align: center;
-	background: rgba(231, 0, 0, 0.575);
+	background: #005BBF;
 
 	position: relative;
 	width: 100%;
@@ -253,6 +262,12 @@ body{
 		font-size: 24px;
 		color: #00a2ff;
 	}
+
+	.init{
+		display: flex;
+		flex-direction: column;
+	}
+
 	/* header */
 
 	/* content */
