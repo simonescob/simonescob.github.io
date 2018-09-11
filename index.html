@@ -18,7 +18,7 @@
 	<title>Simon Escobar</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/index.min.css">
+	<link rel="stylesheet" href="css/index.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118801699-1"></script>
@@ -32,20 +32,19 @@
 
 </head>
 <body>
-	<header>
+	
+	
+	<div class="menu">
+		<a href="#" id="me">Me</a>
+		<a href="#title-projects" id="projects">Projects</a>
+		<a href="#Contact" id="contact">Contact</a>
+	</div>
+	<header>	
 		
-		<div class="header-menu">
-			<a href="#" id="home">Home</a>
-			<a href="#" id="prj">Projects</a>
-			<a href="#" id="about">About</a>
-		</div>
-		
-		<div class="header-fondo">
-		</div>
-
-		<div class="home">		
-			<div class="img-yo">
-				<img id="simon" src="./images/yo.jpg" alt="img simon">
+		<div class="init">		
+			
+			<div class="me">
+				<img id="simon" src="./images/me.png" alt="img simon">
 				<h1>Simon Escobar</h1>
 				<p>
 					😎 Frontend and Backend developer 
@@ -62,11 +61,53 @@
 					<a target="_blank" href="https://linkedin.com/in/simonescob" class="in"><i class="fab fa-linkedin-in"></i></a>
 				</div> -->
 			</div>
+			
+			<div class="me-desc">
+				<p>
+					😎 Junior 😎 <br> 
+					
+					Frontend and Backend 
+					<strong>developer</strong>  
+					<br/>
+					
+					passionate for the <strong>emojis</strong>
+					
+					😁 and 😁<br>
+					
+					the <strong>technology</strong> 💻, 
+					<br> Student at <strong>Platzi</strong> 😎
+				</p>
+			</div>
+		
+			
 		</div>
 		
-		<div class="list-projects disable">
-			<h1 id="title">Online Projects</h1>
-		 	<ul>
+		<!--
+			<h2>Hola, Me llamo Simón Escobar</h2>
+			
+			<p class="cont">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+			</p>
+			
+		-->
+		</header>
+		
+		<div class="list-projects">
+			
+			<h1 id="title-projects">My Projects</h1>
+			
+			<h2>Coming soon ...</h2>
+			<span>
+				🔜 🔜 🔜
+				<br>
+				⏱️ ⏱ ⏱️
+			</span>
+
+			<!-- <ul>
 				<li class="card">
 					<h1>VideoVitae</h1>
 					<a target="_blank" href="https://VideoVitae.herokuapp.com/">Link</a>
@@ -92,11 +133,12 @@
 					<a target="_blank" href="https://simonescob.github.io/test6">Link</a>
 					<p>React + Firebase</p>
 				</li>
-			</ul>
+			</ul> -->
+
 		</div>
 		
-		<div class="contact disable">
-			<h1>Contact me by</h1>
+		<div class="contact">
+			<h1 id="Contact">Contact me by</h1>
 			
 			<div class="icons">
 				<a target="_blank" href="mailto:smnescobar35@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
@@ -109,9 +151,12 @@
 			
 		</div>
 		
-	</header>
-	
-	<script src="js/jquery-3.3.1.min.js"></script>
+		<footer>
+			<p>Simon Escobar 2018 &copy;</p> 
+		</footer>
+		
+		
+		<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
 </html>

@@ -12,10 +12,10 @@ body{
 
 
 /* other classes */
-
+/* 
 .disable{
 	display: none !important;
-}
+} */
 
 .animati{
 	transition: ease-in-out;
@@ -23,7 +23,6 @@ body{
 }
 
 .card {
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -51,60 +50,72 @@ body{
 	font-weight: bold;
 }
 
-.card p{
-}
-
 /* other classes */
 
 /* header */
 
-.header-menu{
-	margin-top: 10px;
+.menu-box{
+	position: relative;
+}
+
+.menu{
+	margin: 10px 0;
 	display: flex;
 	flex-direction: row;
+<<<<<<< HEAD
 	justify-content: space-around;
 
 	/* background-color: #ffffffcb; */
+=======
+	justify-content: space-evenly;
+>>>>>>> option2
 }
 
-.header-fondo{
+.fondo{
 	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	z-index: -1;
-	top: 0;
-	background-image: url("../images/home.jpeg");
-	background-size: cover;
-	background-position: center;
 }
 
-.header-menu a{
+.menu a{
 	text-decoration: none;
 	font-size: 28px;
 	font-weight: bold;
-	color: #00a2ff;
-	border-bottom: 4px solid #00a2ff;
+	color: #0079FF;
 }
 
 
 /* header */
 
-/* content */
+header{
+	background-color: #0079FF;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	padding: 8% 10%;
+}
+
+header{
+	color: white;
+}
+
 
 .cont{
-	padding-top: 140%;
 	margin: 12px;
 	text-align: justify;
 }
 
-.home{
+.init{
 	display: flex;
 	flex-direction: column !important;
 	justify-content: center;
 	align-items: center;
+<<<<<<< HEAD
 
 	background-color: rgba(77, 77, 77, 0.089);
 	position: absolute;
@@ -113,13 +124,18 @@ body{
 
 	top: 0;
 	z-index: -1;
+=======
+	
+	position: relative;
+	padding-bottom: 12%;
+>>>>>>> option2
 }
 
-.home .img-yo{
+.init .me{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+<<<<<<< HEAD
 
 	background-color: rgba(65, 65, 65, 0.8);
 	padding: 25px 0;
@@ -137,19 +153,32 @@ body{
 	margin: 0 5px;
 	font-size: 60px;
 	color: #ffffff;
+=======
+	padding: 0 5%;
 }
 
-.home img{
+.init .me-desc{
+	margin: 0 10%;
+	padding: 30px;
+	background-color: #003C7F;
+	border-radius: 20px;
+	font-size: 30px;
+	text-align: center;
+>>>>>>> option2
+}
+
+.init img{
 	border-radius: 50%;
+	width: 270px;
 }
 
-.home h1{
+.init h1{
 	color: #ffffff;
 }
 
-.home h1{
-	padding: 0 20px;
-}
+/* header */
+
+/* Lists */
 
 .home p{
 	margin: 0 8px;
@@ -164,14 +193,12 @@ body{
 }
 
 .list-projects{
-	position: absolute;
+	background-color: #006DE5;
+	position: relative;
 	text-align: center;
 	overflow: auto;
-	height: 100%;
-	background-color: rgba(77, 77, 77, 0.342);
-	top: 0;
-	z-index: -1;
-	
+	/* height: 700px; */
+	padding: 10%;
 }
 
 .list-projects ul{
@@ -181,7 +208,7 @@ body{
 	justify-content: space-around;
 	margin: 10px 110px !important;
 	
-	height: 76%;
+	/* height: 76%; */
 	overflow-y: auto;
 }
 
@@ -194,17 +221,26 @@ body{
 	border-radius: 20px;
 }
 
-
-.list-projects h1#title{
-	margin-top: 60px;
-	color: white;
-}
-
 .list-projects ul li{
 	list-style: none;
 }
 
-/* about */
+.list-projects{
+	color: white;
+}
+
+.list-projects h1#title-projects{
+	/* margin-top: 60px; */
+	color: white;
+}
+
+.list-projects span{
+	font-size: 80px;
+}
+
+/* Lists */
+
+/* Contact */
 
 .contact {
 	display: flex;
@@ -213,14 +249,10 @@ body{
 	align-items: center;
 
 	text-align: center;
-	background: rgba(77, 77, 77, 0.342);
+	background: #005BBF;
 
-	position: absolute;
-	width: 100%;
-	height: 100%;
-
-	top: 0;
-	z-index: -1;
+	position: relative;
+	padding: 10%;
 }
 
 .contact .icons{
@@ -231,19 +263,29 @@ body{
 }
 
 .contact h1{
+	font-size: 50px;
 	color: white;
 }
 
 .contact a i {
 	font-size: 130px;
 	margin: auto 30px;
-	border-radius: 50%;
 	color: white;
 }
 
-/* about */
+/* Contact */
 
-/* content */
+
+/* footer */
+
+footer{
+	background-color: #003C7F;
+	text-align: center;
+	color: white;
+}
+
+/* footer */
+
 
 /* media queries */
 
@@ -281,18 +323,16 @@ body{
 
 	/* header */
 
-	/* content */
+	/* Lists */
 	.list-projects{
-		width: 100%;
+		/* width: 100%; */
 	}
 
 	.list-projects ul{
 		margin: 10px 50px !important;
 	}
 
-	.card{
-	}
-	/* content */
+	/* Lists */
 }
 
 @media screen and (max-width: 800px){
@@ -302,18 +342,24 @@ body{
 		padding: 10px 0;
 	}
 
-	.header-menu a{
+	.menu a{
 		font-size: 24px;
-		color: #00a2ff;
 	}
 
-	.home .img-yo{
-		margin: 0 10%;
+	.init{
+		display: flex;
+		flex-direction: column;
 	}
 
-	.home p{
-		margin: 0 10%;
+	.init .me img{
+		width: 240px;
 	}
+
+	.init .me-desc{
+		font-size: 20px;
+		padding: 20px;
+	}
+
 	/* header */
 
 	/* content */
@@ -321,11 +367,15 @@ body{
 	.list-projects {
 	}
 
-	/* about */
+	/* contact */
+
 	.contact a i{
-		font-size: 100px;
+		font-size: 95px;
 	}
-	/* about */
+	.contact h1{
+		font-size: 35px
+	}
+	/* contact */
 
 	/* content */
 
