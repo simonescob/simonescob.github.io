@@ -62,13 +62,7 @@ body{
 	margin: 10px 0;
 	display: flex;
 	flex-direction: row;
-<<<<<<< HEAD
-	justify-content: space-around;
-
-	/* background-color: #ffffffcb; */
-=======
 	justify-content: space-evenly;
->>>>>>> option2
 }
 
 .fondo{
@@ -115,45 +109,15 @@ header{
 	flex-direction: column !important;
 	justify-content: center;
 	align-items: center;
-<<<<<<< HEAD
-
-	background-color: rgba(77, 77, 77, 0.089);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-
-	top: 0;
-	z-index: -1;
-=======
 	
 	position: relative;
 	padding-bottom: 12%;
->>>>>>> option2
 }
 
 .init .me{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-<<<<<<< HEAD
-
-	background-color: rgba(65, 65, 65, 0.8);
-	padding: 25px 0;
-	margin: 0 24%;
-	border-radius: 20px;
-}
-
-.home .icons{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.home .icons a i {
-	margin: 0 5px;
-	font-size: 60px;
-	color: #ffffff;
-=======
 	padding: 0 5%;
 }
 
@@ -164,7 +128,6 @@ header{
 	border-radius: 20px;
 	font-size: 30px;
 	text-align: center;
->>>>>>> option2
 }
 
 .init img{
