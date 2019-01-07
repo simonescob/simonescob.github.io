@@ -1,42 +1,16 @@
-var home = $("#home");
-var prj = $("#prj");
-var about = $("#about");
-var hf = $(".header-fondo");
-var me = $(".img-yo");
-var list = $(".list-projects");
-var contact = $(".contact");
+// window.onscroll = function() {myFunction()};
 
-home.click(() => {
-	hf.css({
-		"background-image":" url(images/home.jpeg)",
-	})
-	me.removeClass("disable")
-	list.addClass("disable")
-	contact.addClass("disable")
-	
-	hf.addClass("animati")
-	me.addClass("animati")
-});
+// var navbar = document.getElementById("Navbar");
+// var know = document.getElementById("know");
+// var sticky = know.offsetTop;
 
+// console.log(navbar, sticky)
 
-prj.click(() => {
-	hf.css({
-		"background-image":" url(images/projects.jpeg)",
-	})
-	list.removeClass("disable")
-	contact.addClass("disable")
-	me.addClass("disable")
-	
-	hf.addClass("animati")
-});
-
-about.click(() => {
-	hf.css({
-		"background-image":" url(images/about.jpeg)",
-	})
-	contact.removeClass("disable")
-	list.addClass("disable")
-	me.addClass("disable")
-	
-	hf.addClass("animati")
-});
+// function myFunction() {
+// 	if (window.pageYOffset >= 550) {
+// 		// alert("Here")
+// 		navbar.classList.add("sticky")
+// 	} else {
+// 		navbar.classList.remove("sticky");
+// 	}
+// }

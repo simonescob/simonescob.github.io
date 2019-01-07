@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
 
@@ -21,9 +21,10 @@
 	<!-- end OpenGraph -->
 	
 	<title>Simon Escobar</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/index.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118801699-1"></script>
@@ -37,119 +38,195 @@
 
 </head>
 <body>
+	<!-- end home -->
+
+	<header id="home">
 	
-	
-	<div class="menu">
-		<a href="#" id="me">Me</a>
-		<a href="#title-projects" id="projects">Projects</a>
-		<a href="#Contact" id="contact">Contact</a>
-	</div>
-	<header>	
-		
-		<div class="init">		
-			
-			<div class="me">
-				<img id="simon" src="./images/me.png" alt="img simon">
-				<h1>Simon Escobar</h1>
-			</div>
-			
-			<div class="me-desc">
-				<p>
-					😎 Junior 😎 <br> 
-					
-					Frontend and Backend 
-					<strong>developer</strong>  
-					<br/>
-					
-					passionate for the <strong>emojis</strong>
-					
-					😁 and 😁<br>
-					
-					the <strong>technology</strong> 💻, 
-					<br> Student at 
-					<strong><a target="_blank" href="https://platzi.com/">Platzi</a></strong>
-					😎
-				</p>
-			</div>
-		
-			
-		</div>
-		
-		<!--
-			<h2>Hola, Me llamo Simón Escobar</h2>
-			
-			<p class="cont">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui voluptate unde, nemo esse dignissimos sunt similique laborum labore velit deleniti provident illo reprehenderit? Laudantium necessitatibus ea aperiam sint. Provident.
+		<!-- First text -->
+		<div id="homeText">
+			<p data-aos="fade-right" data-aos-duration="2000" >
+				<strong >Hola</strong> que tal, me llamo
 			</p>
 			
-		-->
-		</header>
+			<h1 data-aos="fade-left" data-aos-duration="3000" data-aos-delay="400">Simón Escobar</h1>
+			
+			<p data-aos="fade-right" data-aos-duration="3000" data-aos-delay="600">Soy <span>Desarrollador Backend</span></p>
+		</div>
+		<!-- End first text -->
 		
-		<div class="list-projects">
-			
-			<h1 id="title-projects">My Projects</h1>
-			
-			<h2>Coming soon ...</h2>
-			<span>
-				🔜 🔜 🔜
-				<br>
-				⏱️ ⏱ ⏱️
-			</span>
+		<p id="DouWant" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="800">¿Quieres?</p>
+	
+		<!-- Btns navs -->
+		<div id="homeMenu" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1000">
+			<a href="#know">Conocerme</a>
+			<a href="#works">Ver mi trabajo</a>
+			<a href="#SocialNetwork" id="spec">Mis Redes Sociales</a>
+		</div>
+		<!-- End Btns navs -->
 
-			<!-- <ul>
-				<li class="card">
-					<h1>VideoVitae</h1>
-					<a target="_blank" href="https://VideoVitae.herokuapp.com/">Link</a>
-					<p>Django</p>
-				</li>
-				<li class="card">
-					<h1>Mypap</h1>
-					<a target="_blank" href="https://mypap.herokuapp.com/">Link</a>
-					<p>Django</p>
-				</li>
-				<li class="card">
-					<h1>LifeLud</h1>
-					<a target="_blank" href="https://lifelud.herokuapp.com/">Link</a>
-					<p>Django</p>
-				</li>
-				<li class="card">
-					<h1>Gesodon</h1>
-					<a target="_blank" href="https://simonescob.github.io/gesodon">Link</a>
-					<p>React + Firebase</p>
-				</li>
-				<li class="card">
-					<h1>Test6</h1>
-					<a target="_blank" href="https://simonescob.github.io/test6">Link</a>
-					<p>React + Firebase</p>
-				</li>
-			</ul> -->
+	</header>
+	<!-- end home -->
+
+	<!-- <div id="Navbar" class="">
+		<li><a class="logo" href="#homeText">Simon Escobar</a></li>
+		<div class="sections">
+				<li><a href="#home">Home</a></li>
+			<li><a href="#know">Conoceme</a></li>
+			<li><a href="#works">Proyectos</a></li>
+			<li><a href="#SocialNetwork">Redes</a></li>
+		</div>
+	</div> -->
+
+	<!-- Conoceme -->
+	<section id="know">
+	
+		<div id="knowText">
+			
+			<!-- Description -->
+			<h1 data-aos="fade-left">¿Quién soy?</h1>
+			<p data-aos="fade-down">
+				<strong>¡Hola!</strong>, me llamo Simón Neptalí Escobar Guerra, 
+				tengo 18 años de edad,
+				<strong><span>soy Desarrollador Backend</span></strong>
+				en python con 
+				<a target="_blank" href="https://www.djangoproject.com" class="link">Django</a> y 
+				<a target="_blank" href="https://firebase.google.com" class="link">Firebase</a>,
+				por la parte de Frontend uso 
+				<a target="_blank" href="https://reactjs.org" class="link">React.JS</a> y 
+				<a target="_blank" href="https://sass-lang.com/" class="link">Sass</a>. 
+				Me encanta aprender varias cosa, 
+				tengo unas cuantas experiencias en otras áreas no de forma profesional 
+				sino como pasiones, he tratado con diseño 
+				(gráfico, de interfaces y logos), marketing inbound y
+				edición de video. Con interes por la inteligencia emocional y 
+				la productividad personal.
+			</p>
+			<!-- end Description -->
+			
+			<br><br><br>
+
+			<!-- Frontend -->
+			<h1 data-aos="fade-right">Mi stack de trabajo</h1>
+			<div data-aos="fade-up">
+				Para Proyectos <strong>Simples</strong>: <br>
+				Firebase,
+				React.js y 
+				Sass
+				<br/>
+				<div class="simple">
+					<img src="./images/firebase-1.svg" alt="Logo firebase">
+					<img src="./images/react.svg" alt="Logo reactjs">
+					<img src="./images/sass-1.svg" alt="Logo sass">
+				</div>
+			</div>
+
+			<br/>
+
+			<!-- Backend -->
+			<div data-aos="fade-up" >
+				Para proyectos más <strong>Profesionales</strong>: <br> Django, React.js y Sass.
+				<br><br><br>
+				<div class="hard">
+					<img src="./images/django.svg" alt="Logo django">
+					<img src="./images/react.svg" alt="Logo reactjs">
+					<img src="./images/sass-1.svg" alt="Logo sass">
+				</div>
+			</div>
+
+			<!-- Mini texto para mostrar mi bio larga -->
+			<p class="bottom showDes" data-aos="zoom-in">
+				Si deseas ver más sobre mí, mira mi <a href="#" class="link">bio</a> extensa.
+			</p>
 
 		</div>
-		
-		<div class="contact">
-			<h1 id="Contact">Contact me by</h1>
+	
+	</section>
+	<!-- end Conoceme -->
+
+	<!-- Proyectos -->
+	<section id="works">	
 			
-			<div class="icons">
-				<a target="_blank" href="mailto:smnescobar35@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
-				<a target="_blank" href="https://facebook.com/simonescob" class="fb"><i class="fab fa-facebook-square"></i></a>
-				<a target="_blank" href="https://twitter.com/SimonEscob" class="tw"><i class="fab fa-twitter"></i></a>
-				<a target="_blank" href="https://github.com/simonescob" class="tw"><i class="fab fa-github"></i></a>
-				<a target="_blank" href="https://instagram.com/simonescob" class="ins"><i class="fab fa-instagram"></i></a>
-				<a target="_blank" href="https://linkedin.com/in/simonescob" class="in"><i class="fab fa-linkedin-in"></i></a>
+		<div class="layer">
+
+			<h1 data-aos="fade-in">Mis Trabajos</h1>
+			
+			<div id="boxes">
+				<div class="square" data-aos="zoom-in">
+					<a target="_blank" href="https://supertasks.surge.sh">
+						<h1>SuperTasks</h1>
+						<h2>React.JS</h2>
+					</a>
+				</div>
+				
+				<div class="square" data-aos="zoom-in">
+					<a href="https://mypap.herokuapp.com">
+						<h1>MyPaP</h1>
+						<h2>Django</h2>
+					</a>
+				</div>
+				
+				<div class="square" data-aos="zoom-in">
+					<a href="https://simonescob.com/test6/">
+						<h1>Firebase</h1>
+						<h2>Firebase Auth</h2>
+					</a>
+				</div>
+
+				<!-- Mini texto para invitar a github -->
+				<p class="bottom" data-aos="zoom-in">
+					Para ver más de mis proyectos puedes ver mi 
+					<a target="_blank" href="https://github.com/Simonescob" class="linkW">Github</a>
+				</p>
+
 			</div>
 			
 		</div>
 		
-		<footer>
-			<p>Simon Escobar 2018 &copy;</p> 
-		</footer>
-		
-		
-		<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/index.js"></script>
+	</section>
+	<!-- end Proyectos -->
+
+	<!-- Redes Sociales -->
+	<section id="SocialNetwork">
+
+		<h1 data-aos="fade-left">Mis Redes Sociales</h1>
+		<div class="SocialIcons">
+			<a data-aos="zoom-in" target="_blank" href="https://facebook.com/Simonescob">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a data-aos="zoom-in" target="_blank" href="https://twitter.com/Simonescob">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a data-aos="zoom-in" target="_blank" href="https://instagram.com/Simonescob">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a data-aos="zoom-in" target="_blank" href="https://linkedin.com/in/Simonescob">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a data-aos="zoom-in" target="_blank" href="https://github.com/Simonescob">
+				<i class="fab fa-github"></i>
+			</a>
+			<a data-aos="zoom-in" href="mailto:snsimonescobar@gmail.com">
+				<i class="far fa-envelope"></i>
+			</a>
+		</div>
+
+	</section>
+
+	<!-- end Redes Sociales -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="layer">
+			Correo: <br> <strong> snsimonescobar@gmail.com </strong>
+		</div>
+	</footer>
+	<!-- end Footer -->
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- <script src="js/index.js"></script> -->
+	<script>
+			AOS.init();
+</script>
 </body>
 </html>

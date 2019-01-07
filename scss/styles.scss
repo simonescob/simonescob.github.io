@@ -1,0 +1,371 @@
+$blueDark: #061a40;
+$titles: 35pt;
+$titlesS: 25pt;
+$sections: 100vh;
+$margins: 100px 200px;
+$marginsS: 40px 20px;
+$marginsM: 50px;
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	transition: .5s;
+}
+
+html,body{
+	overflow-x: hidden; 
+}
+
+a.link{
+	color: $blueDark;
+	font-weight: 700;
+}
+
+a.linkW{
+	color: white;
+	font-weight: 700
+}
+
+.bottom{
+	font-size: 20pt;
+	margin-top: 40px;
+}
+
+// Esta parte es el home
+header{
+	background-color: $blueDark;
+	color: white;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+
+	div#homeText{
+		font-family: 'Open Sans Light', sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		text-align: center;
+		p{
+			font-size: 32pt;
+			font-weight: 200;
+		}
+		h1{
+			font-size: $titles; 
+		}
+	}
+	
+	p#DouWant{
+		margin: 40px 0;
+	}
+
+	div#homeMenu{
+		width: 50vw;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		margin-left: 50px;
+		a{
+			text-decoration: none;
+			color: white;
+			border: solid 3px;
+			border-radius: 5px;
+			padding: 5px;
+			font-size: 15pt;
+			transition: .5s;
+		}
+		a:hover{
+			color: #061a40;
+			background-color: #fff;
+			transform: scale(1.3);
+			border: solid 3px;
+		}
+	}
+
+}
+// home end
+
+// Navbar
+// #Navbar{
+// 	display: none;
+// 	background-color: $blueDark;
+// }
+
+// #Navbar.sticky{
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: space-between;
+// 	align-content: center;
+
+// 	position: fixed;
+// 	top: 0;
+// 	z-index: 1;
+// 	width: 95vw;
+// 	padding: 10px 40px 10px 20px;
+// 	list-style-type: none;
+	
+// 	.logo{
+// 		font-size: 25pt;
+// 		font-weight: 700;
+// 	}
+
+// 	.sections{
+// 		display: flex;
+// 		flex-direction: row;
+// 		justify-content: space-between;
+// 		align-items: center;
+// 		flex-grow: .06;
+// 	}
+// 	a{
+// 		color: #fff;
+// 		text-decoration: none;
+// 	}
+// }
+
+// .sticky + .knowText {
+//   padding-top: 60px;
+// }
+
+// End Navbar
+
+// Esta parte es Know
+section#know{
+	margin: $margins;
+
+	h1, h2, h3{
+		padding-top: 30px;
+	}
+
+	#knowText{
+		text-align: center;
+		h1{
+			font-size: $titles;
+			margin-bottom: 60px;
+		}
+		p{
+			text-align: justify;
+		}
+	}
+
+	img {
+		width: 200px;
+	}
+	.simple{
+		img:first-child{
+			height: 160px;
+			width: 140px;
+		}
+	}
+	.hard{
+		img:first-child{
+			height: 160px;
+			width: 135px;
+		}
+		img:last-child{
+			margin-bottom: 18px;
+		}
+	}
+
+	p.showDes{
+		text-align: center !important;
+	}
+
+}
+// Know end
+
+// Esta parte es works
+section#works{
+	// height: $sections;
+	background-color: $blueDark;
+	text-align: center;
+	color: white;
+	
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	.layer{
+		margin: 0 100px;
+	}
+
+	h1{
+		font-size: $titles;
+		margin: 80px 0;
+	}
+
+	p{
+		padding: 30px 0;
+		width: 90vw;
+	}
+
+	#boxes{
+		text-align: center;
+		margin: 30px 0;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		justify-content: center;
+
+		.square{
+			background-color: white;
+			width: 300px;
+			height: 300px;
+			margin: 10px;
+
+			display: flex;
+			flex-direction: column-reverse;
+			align-items: center;
+			justify-content: center;
+
+			a{
+				text-decoration: none;
+			}
+
+			h1,h2,p{
+				color: $blueDark;
+				padding: 0;
+				margin: 0;
+				z-index: 2;
+			}
+			transition: .5s;	
+		}
+		
+		.square:hover{
+			cursor: pointer;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0.400); 
+			img{
+				border-radius: 50%;
+				opacity: .5;
+			}
+			h1,h2{
+				color: white;
+			}
+		}
+	
+	}
+}
+// Works end
+
+// Esta parte es de RRSS 
+
+section#SocialNetwork{
+	margin: $margins;
+	text-align: center;
+
+	h1{
+		font-size: $titles;
+	}
+
+	div.SocialIcons{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	a{
+		text-decoration: none;
+		color: $blueDark;
+	}
+
+	i.fab, i.far{
+		font-size: 130pt;
+		padding: 30px;
+		// margin-right: 40px;
+	}
+
+}
+
+// end of RRSS 
+
+// footer
+
+footer{
+	background-color: $blueDark;
+	color: #fff;
+
+	text-align: center;
+	padding: 60px;
+	font-size: 30pt;
+}
+
+// end footer
+
+// Responsive
+
+@media screen and (max-width: 780px){
+	h1{
+		font-size: $titles;
+	}
+	header{
+		div#homeMenu{
+			margin-left: 0;
+			width: 35vw;
+			text-align: center;
+			a{
+				width: 100%;
+				margin-bottom: 15px;
+				border-radius: 50px;
+			}
+		}
+	}
+	section#know{
+		margin: $marginsM;
+	}
+	section#SocialNetwork{
+		margin: $marginsM;
+	}
+}
+
+@media screen and (max-width: 500px){
+	header{
+		div#homeText{
+			p{
+				font-size: 20pt;
+			}
+			h1{
+				font-size: 32pt;
+			}
+		}
+		div#homeMenu{
+			margin-left: 0;
+			width: 55vw;
+			text-align: center;
+			a{
+				width: 100%;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	section#know{
+		margin: $marginsS;
+	}
+	section#SocialNetwork{
+		margin: $marginsS;
+	}
+	footer {
+		font-size: 17pt;
+		padding: 35px;
+		.layer{
+			margin: 0;
+		}
+	}
+}
+
+// End Responsive
+
+// Animation
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+// End Animation
