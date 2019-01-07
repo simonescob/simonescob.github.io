@@ -1,7 +1,10 @@
 $blueDark: #061a40;
 $titles: 35pt;
+$titlesS: 25pt;
 $sections: 100vh;
 $margins: 100px 200px;
+$marginsS: 40px 20px;
+$marginsM: 50px;
 
 * {
 	padding: 0;
@@ -11,11 +14,22 @@ $margins: 100px 200px;
 }
 
 html,body{
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
 	overflow-x: hidden; 
+}
+
+a.link{
+	color: $blueDark;
+	font-weight: 700;
+}
+
+a.linkW{
+	color: white;
+	font-weight: 700
+}
+
+.bottom{
+	font-size: 20pt;
+	margin-top: 40px;
 }
 
 // Esta parte es el home
@@ -76,9 +90,56 @@ header{
 }
 // home end
 
+// Navbar
+// #Navbar{
+// 	display: none;
+// 	background-color: $blueDark;
+// }
+
+// #Navbar.sticky{
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: space-between;
+// 	align-content: center;
+
+// 	position: fixed;
+// 	top: 0;
+// 	z-index: 1;
+// 	width: 95vw;
+// 	padding: 10px 40px 10px 20px;
+// 	list-style-type: none;
+	
+// 	.logo{
+// 		font-size: 25pt;
+// 		font-weight: 700;
+// 	}
+
+// 	.sections{
+// 		display: flex;
+// 		flex-direction: row;
+// 		justify-content: space-between;
+// 		align-items: center;
+// 		flex-grow: .06;
+// 	}
+// 	a{
+// 		color: #fff;
+// 		text-decoration: none;
+// 	}
+// }
+
+// .sticky + .knowText {
+//   padding-top: 60px;
+// }
+
+// End Navbar
+
 // Esta parte es Know
 section#know{
 	margin: $margins;
+
+	h1, h2, h3{
+		padding-top: 30px;
+	}
 
 	#knowText{
 		text-align: center;
@@ -89,6 +150,29 @@ section#know{
 		p{
 			text-align: justify;
 		}
+	}
+
+	img {
+		width: 200px;
+	}
+	.simple{
+		img:first-child{
+			height: 160px;
+			width: 140px;
+		}
+	}
+	.hard{
+		img:first-child{
+			height: 160px;
+			width: 135px;
+		}
+		img:last-child{
+			margin-bottom: 18px;
+		}
+	}
+
+	p.showDes{
+		text-align: center !important;
 	}
 
 }
@@ -108,7 +192,7 @@ section#works{
 	align-items: center;
 	
 	.layer{
-		margin: 0 200px;
+		margin: 0 100px;
 	}
 
 	h1{
@@ -116,9 +200,14 @@ section#works{
 		margin: 80px 0;
 	}
 
+	p{
+		padding: 30px 0;
+		width: 90vw;
+	}
+
 	#boxes{
 		text-align: center;
-		margin: 80px 0;
+		margin: 30px 0;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -127,8 +216,8 @@ section#works{
 
 		.square{
 			background-color: white;
-			width: 280px;
-			height: 280px;
+			width: 300px;
+			height: 300px;
 			margin: 10px;
 
 			display: flex;
@@ -136,16 +225,12 @@ section#works{
 			align-items: center;
 			justify-content: center;
 
-			img{
-				position: absolute;
-				width: 280px !important;
-				height: 280px !important;
-				transition: .8s;
-				z-index: 1;
+			a{
+				text-decoration: none;
 			}
 
-			h1,h2{
-				color: transparent;
+			h1,h2,p{
+				color: $blueDark;
 				padding: 0;
 				margin: 0;
 				z-index: 2;
@@ -202,9 +287,46 @@ section#SocialNetwork{
 
 // end of RRSS 
 
+// footer
+
+footer{
+	background-color: $blueDark;
+	color: #fff;
+
+	text-align: center;
+	padding: 60px;
+	font-size: 30pt;
+}
+
+// end footer
+
 // Responsive
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 780px){
+	h1{
+		font-size: $titles;
+	}
+	header{
+		div#homeMenu{
+			margin-left: 0;
+			width: 35vw;
+			text-align: center;
+			a{
+				width: 100%;
+				margin-bottom: 15px;
+				border-radius: 50px;
+			}
+		}
+	}
+	section#know{
+		margin: $marginsM;
+	}
+	section#SocialNetwork{
+		margin: $marginsM;
+	}
+}
+
+@media screen and (max-width: 500px){
 	header{
 		div#homeText{
 			p{
@@ -224,19 +346,17 @@ section#SocialNetwork{
 			}
 		}
 	}
-}
-
-@media screen and (max-width: 780px){
-	header{
-		div#homeMenu{
-			margin-left: 0;
-			width: 35vw;
-			text-align: center;
-			a{
-				width: 100%;
-				margin-bottom: 15px;
-				border-radius: 50px;
-			}
+	section#know{
+		margin: $marginsS;
+	}
+	section#SocialNetwork{
+		margin: $marginsS;
+	}
+	footer {
+		font-size: 17pt;
+		padding: 35px;
+		.layer{
+			margin: 0;
 		}
 	}
 }
