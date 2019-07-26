@@ -1,1 +1,274 @@
-*{padding:0;margin:0;font-family:"Open Sans",sans-serif;transition:.5s}html,body{overflow-x:hidden}a.link{color:#061a40;font-weight:700}a.linkW{color:#fff;font-weight:700}.bottom{font-size:20pt;margin-top:40px}header{background-color:#061a40;color:#fff;height:100vh;display:flex;flex-direction:column;flex-wrap:nowrap;align-items:center;justify-content:center}header div#homeText{font-family:"Open Sans Light",sans-serif;font-style:normal;font-weight:300;text-align:center}header div#homeText p{font-size:32pt;font-weight:200}header div#homeText h1{font-size:35pt}header p#DouWant{margin:40px 0}header div#homeMenu{width:50vw;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;margin-left:50px}header div#homeMenu a{text-decoration:none;color:#fff;border:solid 3px;border-radius:5px;padding:5px;font-size:15pt;transition:.5s}header div#homeMenu a:hover{color:#061a40;background-color:#fff;transform:scale(1.3);border:solid 3px}section#know{margin:100px 200px}section#know h1,section#know h2,section#know h3{padding-top:30px}section#know #knowText{text-align:center}section#know #knowText h1{font-size:35pt;margin-bottom:60px}section#know #knowText p{text-align:justify}section#know img{width:200px}section#know .simple img:first-child{height:160px;width:140px}section#know .hard img:first-child{height:160px;width:135px}section#know .hard img:last-child{margin-bottom:18px}section#know p.showDes{text-align:center !important}section#works{background-color:#061a40;text-align:center;color:#fff;display:flex;flex-wrap:nowrap;flex-direction:column;justify-content:center;align-items:center}section#works .layer{margin:0 100px}section#works h1{font-size:35pt;margin:80px 0}section#works p{padding:30px 0;width:90vw}section#works #boxes{text-align:center;margin:30px 0;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}section#works #boxes .square{background-color:#fff;width:300px;height:300px;margin:10px;display:flex;flex-direction:column-reverse;align-items:center;justify-content:center;transition:.5s}section#works #boxes .square a{text-decoration:none}section#works #boxes .square h1,section#works #boxes .square h2,section#works #boxes .square p{color:#061a40;padding:0;margin:0;z-index:2}section#works #boxes .square:hover{cursor:pointer;border-radius:50%;background-color:rgba(0,0,0,.4)}section#works #boxes .square:hover img{border-radius:50%;opacity:.5}section#works #boxes .square:hover h1,section#works #boxes .square:hover h2{color:#fff}section#SocialNetwork{margin:100px 200px;text-align:center}section#SocialNetwork h1{font-size:35pt}section#SocialNetwork div.SocialIcons{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:center}section#SocialNetwork a{text-decoration:none;color:#061a40}section#SocialNetwork i.fab,section#SocialNetwork i.far{font-size:130pt;padding:30px}footer{background-color:#061a40;color:#fff;text-align:center;padding:60px;font-size:30pt}@media screen and (max-width: 780px){h1{font-size:35pt}header div#homeMenu{margin-left:0;width:35vw;text-align:center}header div#homeMenu a{width:100%;margin-bottom:15px;border-radius:50px}section#know{margin:50px}section#SocialNetwork{margin:50px}}@media screen and (max-width: 500px){header div#homeText p{font-size:20pt}header div#homeText h1{font-size:32pt}header div#homeMenu{margin-left:0;width:55vw;text-align:center}header div#homeMenu a{width:100%;margin-bottom:15px}section#know{margin:40px 20px}section#SocialNetwork{margin:40px 20px}footer{font-size:17pt;padding:35px}footer .layer{margin:0}}@keyframes typing{from{width:0}to{width:100%}}/*# sourceMappingURL=styles.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.5s;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+a.link {
+  color: #061a40;
+  font-weight: 700;
+  text-decoration-line: underline !important;
+}
+
+a.linkW {
+  color: white;
+  font-weight: 700;
+  text-decoration-line: underline !important;
+}
+
+.bottom {
+  font-size: 20pt;
+  margin-top: 40px;
+}
+
+header {
+  background-color: #061a40;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+header div#homeText {
+  font-family: "Open Sans Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
+header div#homeText p {
+  font-size: 32pt;
+  font-weight: 200;
+}
+header div#homeText h1 {
+  font-size: 35pt;
+}
+header p#DouWant {
+  margin: 40px 0;
+}
+header div#homeMenu {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+header div#homeMenu a {
+  text-decoration: none;
+  color: white;
+  border: solid 3px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15pt;
+  transition: 0.5s;
+}
+header div#homeMenu a:hover {
+  color: #061a40;
+  background-color: #fff;
+  transform: scale(1.3);
+  border: solid 3px;
+}
+
+section#know {
+  margin: 100px 200px;
+}
+section#know h1, section#know h2, section#know h3 {
+  padding-top: 30px;
+}
+section#know #knowText {
+  text-align: center;
+}
+section#know #knowText h1 {
+  font-size: 35pt;
+  margin-bottom: 60px;
+}
+section#know #knowText p {
+  text-align: justify;
+}
+section#know img {
+  width: 200px;
+}
+section#know .simple img:first-child {
+  height: 160px;
+  width: 140px;
+}
+section#know .hard img:first-child {
+  height: 160px;
+  width: 135px;
+}
+section#know .hard img:last-child {
+  margin-bottom: 18px;
+}
+section#know p.showDes {
+  text-align: center !important;
+}
+
+section#works {
+  background-color: #061a40;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section#works .layer {
+  margin: 0 100px;
+}
+section#works h1 {
+  font-size: 35pt;
+  margin: 80px 0;
+}
+section#works p {
+  padding: 30px 0;
+  width: 90vw;
+}
+section#works #boxes {
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section#works #boxes a {
+  text-decoration-line: none;
+}
+section#works #boxes a .square {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+section#works #boxes a .square h1, section#works #boxes a .square h2 {
+  color: #061a40;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+section#works #boxes .square:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+section#works #boxes .square:hover img {
+  border-radius: 50%;
+  opacity: 0.5;
+}
+section#works #boxes .square:hover h1, section#works #boxes .square:hover h2 {
+  color: white;
+}
+
+section#SocialNetwork {
+  margin: 100px 200px;
+  text-align: center;
+}
+section#SocialNetwork h1 {
+  font-size: 35pt;
+}
+section#SocialNetwork div.SocialIcons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+section#SocialNetwork a {
+  text-decoration: none;
+  color: #061a40;
+}
+section#SocialNetwork i.fab, section#SocialNetwork i.far {
+  font-size: 130pt;
+  padding: 30px;
+}
+
+footer {
+  background-color: #061a40;
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+  font-size: 30pt;
+}
+footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 35pt;
+  }
+
+  header div#homeMenu {
+    margin-left: 0;
+    width: 35vw;
+    text-align: center;
+  }
+  header div#homeMenu a {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 50px;
+  }
+
+  section#know {
+    margin: 50px;
+  }
+
+  section#SocialNetwork {
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header div#homeText p {
+    font-size: 20pt;
+  }
+  header div#homeText h1 {
+    font-size: 32pt;
+  }
+  header div#homeMenu {
+    margin-left: 0;
+    width: 55vw;
+    text-align: center;
+  }
+  header div#homeMenu a {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  section#know {
+    margin: 40px 20px;
+  }
+
+  section#SocialNetwork {
+    margin: 40px 20px;
+  }
+
+  footer {
+    font-size: 17pt;
+    padding: 35px;
+  }
+  footer .layer {
+    margin: 0;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
