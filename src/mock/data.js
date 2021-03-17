@@ -2,56 +2,71 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Simón Escobar - A Frontend Developer', // e.g: 'Name | Developer'
+  lang: 'es', // e.g: en, es, fr, jp
+  description: 'Frontend Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hola, mi nombre es',
+  name: 'Simón Escobar',
+  subtitle: 'y soy Frontend Developer',
+  cta: 'Más sobre mí',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne:
+    'Hola otra vez, como sabes soy Simón Escobar y me dedico a crear el Frontend para sitios y apps web.',
+  paragraphTwo:
+    'En mis redes sociales, trato de crear contenido educativo y de calidad para que los demás entiendan un poco más sobre el mundo de la web.',
+  paragraphThree: ' ',
+  resume: 'https://drive.google.com/file/d/1GaltdHTsI4EklyNO8pEMF7fkjO6Sgxc0/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'supertask.png',
+    src: 'https://i.imgur.com/jTNjzbH.png',
+    title: 'SuperTasks',
+    info: 'Una web app para crear tareas usando ReactJS',
+    info2: 'Aquí podrás crear tareas agregar las a la lista, borrar o marcar como hechas',
+    tag: 'ReactJS',
+    url: 'http://supertasks.surge.sh/',
+    repo: 'https://github.com/simonescob/SuperTasks', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'fast-whatsapp.png',
+    title: 'Fast Whastapp',
+    info: 'Una web app para enviar mensajes de whatsapp a contactos no agregados.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    tag: 'ReactJS',
+    url: 'https://fast-whatsapp.vercel.app/',
+    repo: 'https://github.com/simonescob/Fast-Whatsapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: '404.png',
+    title: '404 page not found',
+    info: 'Un simple 404 para una página no encontrada.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    tag: 'ReactJS',
+    url: 'https://simo-404-page.vercel.app/',
+    repo: 'https://github.com/simonescob/404-Page', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: ' ',
+    title: 'Ve a mi Github',
+    info: 'Puedes ver mi github y ver más proyectos',
+    info2: '',
+    url: 'https://github.com/simonescob/',
+    // repo: 'https://github.com/simonescob/', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +74,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'snsimonescobar@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +82,33 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCGA4ZITss-7g132QCYbsS5w',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'twitter',
+      url: 'https://twitter.com/simonescob',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/simonescob/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/simonescob/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/simonescob',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
