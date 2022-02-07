@@ -30,6 +30,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'todo-emoji.png',
+    src: 'https://i.imgur.com/jTNjzbH.png',
+    title: 'TODO Emoji',
+    info: 'A web app based on ReactJS and Typescript',
+    info2: 'You can create task (activities), relate them with a emoji and find it',
+    tag: 'ReactJS (Typescript)',
+    url: 'https://todo-emojis.netlify.app/',
+    repo: 'https://github.com/simonescob/todo-emoji', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'search-gifs.png',
+    src: 'https://i.imgur.com/jTNjzbH.png',
+    title: 'Search GIFs',
+    info: 'A web app based on ReactJS and Typescript',
+    info2: 'You can looking for a gif writting more than 3 lyrics',
+    tag: 'ReactJS (Typescript)',
+    url: 'https://search-gif.netlify.app/',
+    repo: 'https://github.com/simonescob/search-gifs', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'supertask.png',
     src: 'https://i.imgur.com/jTNjzbH.png',
     title: 'SuperTasks',
@@ -39,16 +61,16 @@ export const projectsData = [
     url: 'http://supertasks.surge.sh/',
     repo: 'https://github.com/simonescob/SuperTasks', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'fast-whatsapp.png',
-    title: 'Fast Whastapp',
-    info: 'Una web app para enviar mensajes de whatsapp a contactos no agregados.',
-    info2: '',
-    tag: 'ReactJS',
-    url: 'https://fast-whatsapp.vercel.app/',
-    repo: 'https://github.com/simonescob/Fast-Whatsapp', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'fast-whatsapp.png',
+  //   title: 'Fast Whastapp',
+  //   info: 'Una web app para enviar mensajes de whatsapp a contactos no agregados.',
+  //   info2: '',
+  //   tag: 'ReactJS',
+  //   url: 'https://fast-whatsapp.vercel.app/',
+  //   repo: 'https://github.com/simonescob/Fast-Whatsapp', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: '404.png',
