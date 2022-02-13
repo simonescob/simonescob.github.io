@@ -30,6 +30,18 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'product-page.png',
+    src: 'https://i.imgur.com/jTNjzbH.png',
+    title: 'Product page',
+    info: 'A product page example',
+    info2:
+      'In this example you can add an amount of product to the cart. This example is a challenge from frontendmentor.',
+    tag: 'HTML, CSS, JS',
+    url: 'https://product-page-simon.netlify.app/',
+    repo: 'https://github.com/simonescob/ecommerce-product-page', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'todo-emoji.png',
     src: 'https://i.imgur.com/jTNjzbH.png',
     title: 'TODO Emoji',
