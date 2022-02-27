@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Simón Escobar',
-  subtitle: 'and Im Frontend Developer',
+  subtitle: "and I'm Frontend Developer",
   cta: 'About me',
 };
 
@@ -19,13 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    // 'Hola otra vez, como sabes soy Simón Escobar y me dedico a crear el Frontend para sitios y apps web.',
-    'I dedicate to create the frontend part for website and web apps and apply a little of logic. Constantly, I like to learn and make personal projects',
+    'I dedicate to create the frontend part for website and web apps and apply a little of logic. Constantly, I like to learn and make personal projects.',
   paragraphTwo:
-    // 'En mis redes sociales, trato de crear contenido educativo y de calidad para que los demás entiendan un poco más sobre el mundo de la web.',
     'In my social networks I share content about technologies, tips and tutorials in Spanish for people want to get a job or start an idea.',
   paragraphThree: ' ',
-  resume: 'https://drive.google.com/file/d/1GaltdHTsI4EklyNO8pEMF7fkjO6Sgxc0/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1I_5YXAbJfwZ10qDkfmTsJocmaWaJuco8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -82,22 +80,11 @@ export const projectsData = [
     src: 'https://i.imgur.com/jTNjzbH.png',
     title: 'SuperTasks',
     info: 'A web app for create task',
-    // info2: 'Aquí podrás crear tareas agregar las a la lista, borrar o marcar como hechas',
     info2: 'Here you can add a task to the list, delete it and marked like done.',
     tag: 'ReactJS',
     url: 'http://supertasks.surge.sh/',
     repo: 'https://github.com/simonescob/SuperTasks', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'fast-whatsapp.png',
-  //   title: 'Fast Whastapp',
-  //   info: 'Una web app para enviar mensajes de whatsapp a contactos no agregados.',
-  //   info2: '',
-  //   tag: 'ReactJS',
-  //   url: 'https://fast-whatsapp.vercel.app/',
-  //   repo: 'https://github.com/simonescob/Fast-Whatsapp', // if no repo, the button will not show up
-  // },
   {
     id: nanoid(),
     img: '404.png',
@@ -115,7 +102,6 @@ export const projectsData = [
     info: 'You can see these project and other.',
     info2: '',
     url: 'https://github.com/simonescob/',
-    // repo: 'https://github.com/simonescob/', // if no repo, the button will not show up
   },
 ];
 
