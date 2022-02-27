@@ -11,19 +11,17 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contacto" />
+        <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || '¿Te gustaría charlar sobre tecnología y proyectos?'}
-            </p>
+            <p className="contact-wrapper__text">{cta || 'Would like talk more with me?'}</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
             >
-              {btn || 'Hablemos'}
+              {btn || 'Let`s talk'}
             </a>
           </div>
         </Fade>
