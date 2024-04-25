@@ -1,10 +1,10 @@
 ---
-title: Markdown Mystery Tour
+title: E-commerce product page
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/project-1.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+   E-commerce product page and get it looking as close to the design as possible.
 tags:
   - Design
   - Dev

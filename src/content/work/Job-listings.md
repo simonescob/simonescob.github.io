@@ -1,13 +1,14 @@
 ---
-title: h2.0
-publishDate: 2019-10-02 00:00:00
-img: /assets/stock-4.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+title: Job listings with filtering
+publishDate: 2020-03-04 00:00:00
+img: /assets/project-2.png
+img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  using JavaScript to filter out jobs based on selected categories. 
+  We provide a local JSON file to help you practice working with JSON data.
 tags:
   - Design
+  - Dev
   - Branding
 ---
 
