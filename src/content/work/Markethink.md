@@ -1,10 +1,10 @@
 ---
 title: Markethink
-publishDate: 2020-03-04 00:00:00
+publishDate: 2024-10-10 14:00:00
 img: /assets/screenshot-markethink.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  A landing page gor 
+  A landing page for a marketing agency
 tags:
   - Design
   - Landing page
