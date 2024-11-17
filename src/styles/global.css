@@ -105,6 +105,12 @@
 		var(--accent-regular),
 		var(--accent-light)
 	);
+	--gradient-accent-blue: linear-gradient(
+		150deg,
+		#005de9,
+		var(--accent-regular),
+		var(--accent-light)
+	);
 	--gradient-stroke: linear-gradient(180deg, var(--gray-600), var(--gray-800));
 
 	--shadow-sm: 0px 6px 3px rgba(255, 255, 255, 0.01), 0px 4px 2px rgba(255, 255, 255, 0.01),

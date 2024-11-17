@@ -10,6 +10,7 @@ const { data, slug } = Astro.props.project;
 
 <a class="card" href={`/work/${slug}`}>
 	<span class="title">{data.title}</span>
+	<span class="status">{data.status}</span>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
 
@@ -28,6 +29,7 @@ const { data, slug } = Astro.props.project;
 		font-size: var(--text-lg);
 		font-weight: 500;
 		transition: box-shadow var(--theme-transition);
+		position: relative;
 	}
 
 	.card:hover {
@@ -35,6 +37,7 @@ const { data, slug } = Astro.props.project;
 	}
 
 	.title {
+		/* position: absolute; */
 		grid-area: 1 / 1 / 2 / 2;
 		z-index: 1;
 		margin: 0.5rem;
@@ -43,6 +46,15 @@ const { data, slug } = Astro.props.project;
 		color: var(--gray-200);
 		border-radius: 0.375rem;
 	}
+
+	.status {
+		position: absolute;
+		top: 60px;
+		left: 10px;
+		padding: 5px 15px;
+		color: var(--gray-100);
+		background-color: var(--gray-500);
+  }
 
 	img {
 		grid-area: 1 / 1 / 3 / 3;
@@ -58,6 +70,10 @@ const { data, slug } = Astro.props.project;
 		}
 
 		.title {
+			border-radius: 0.9375rem;
+		}
+
+		.status {
 			border-radius: 0.9375rem;
 		}
 	}

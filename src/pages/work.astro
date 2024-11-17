@@ -14,8 +14,8 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-	title="My Work | Jeanine White"
-	description="Learn about Jeanine White's most recent projects"
+	title="My Work | Simon"
+	description="Learn about Simon Escobar's most recent projects"
 >
 	<div class="stack gap-20">
 		<main class="wrapper stack gap-8">
@@ -25,13 +25,9 @@ const projects = (await getCollection('work')).sort(
 				align="start"
 			/>
 			<Grid variant="offset">
-				{
-					projects.map((project) => (
-						<li>
-							<PortfolioPreview project={project} />
-						</li>
-					))
-				}
+				{projects.map((project) => (
+					<li><PortfolioPreview project={project} /></li>
+				))}
 			</Grid>
 		</main>
 		<ContactCTA />
