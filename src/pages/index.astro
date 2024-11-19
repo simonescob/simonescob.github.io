@@ -15,7 +15,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
-import type { iconPaths } from '../components/IconPaths';
+// import type { iconPaths } from '../components/IconPaths';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -23,11 +23,11 @@ const projects = (await getCollection('work'))
 	.slice(0, 4);
 
 /** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'GitHub', href: 'https://github.com/simonescob', icon: 'github-logo' },
-	{ label: 'YouTube', href: 'https://www.youtube.com/channel/UCGA4ZITss-7g132QCYbsS5w', icon: 'youtube-logo' },
-	{ label: 'Tiktok', href: 'https://www.tiktok.com/@simonescobcode/', icon: 'tiktok-logo' },
-];
+// const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
+// 	{ label: 'GitHub', href: 'https://github.com/simonescob', icon: 'github-logo' },
+// 	{ label: 'YouTube', href: 'https://www.youtube.com/channel/UCGA4ZITss-7g132QCYbsS5w', icon: 'youtube-logo' },
+// 	{ label: 'Tiktok', href: 'https://www.tiktok.com/@simonescobcode/', icon: 'tiktok-logo' },
+// ];
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/

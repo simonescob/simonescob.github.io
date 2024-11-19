@@ -29,6 +29,21 @@ const { title, description } = Astro.props;
 		<script>
 			// Add “loaded” class once the document has completely loaded.
 			addEventListener('load', () => document.documentElement.classList.add('loaded'));
+
+			// Brevo Conversations {literal}
+			(function (d: Document, w: any & { BrevoConversationsID?: string; BrevoConversations?: (...args: any[]) => void }, c: any) {
+				w.BrevoConversationsID = '67165208986776bad6043c6f';
+				w[c] = w[c] || function (...args: any[]) {
+					(w[c].q = w[c].q || []).push(args);
+				};
+
+				const s = d.createElement('script');
+				s.async = true;
+				s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+				if (d.head) {
+					d.head.appendChild(s);
+				}
+			})(document, window, 'BrevoConversations');
 		</script>
 
 		<style>
@@ -114,19 +129,5 @@ const { title, description } = Astro.props;
 				}
 			}
 		</style>
-		<!-- Brevo Conversations {literal} -->
-		<script>
-			(function(d, w, c) {
-					w.BrevoConversationsID = '67165208986776bad6043c6f';
-					w[c] = w[c] || function() {
-							(w[c].q = w[c].q || []).push(arguments);
-					};
-					var s = d.createElement('script');
-					s.async = true;
-					s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
-					if (d.head) d.head.appendChild(s);
-			})(document, window, 'BrevoConversations');
-		</script>
-		<!-- /Brevo Conversations {/literal} -->
 	</body>
 </html>
