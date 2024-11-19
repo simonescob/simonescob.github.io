@@ -8,5 +8,7 @@ export default defineConfig({
     routing: {
         prefixDefaultLocale: false
     }
-  }
+  },
+  site: 'https://simonescob.github.io',
+  base: 'main',
 });
