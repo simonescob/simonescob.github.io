@@ -9,6 +9,6 @@ export default defineConfig({
         prefixDefaultLocale: false
     }
   },
-  site: 'https://simonescob.github.io',
+  site: 'https://simonescob.github.io/',
   base: 'main',
 });
