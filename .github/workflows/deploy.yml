@@ -37,6 +37,13 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
+      # Move all files from dist/ to the root directory
+      - name: Move files to root directory
+        run: |
+          shopt -s dotglob
+          mv dist/* .
+          rm -rf dist
+
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
@@ -57,6 +64,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./dist
+          publish_dir: ./
           publish_branch: gh-pages
           force_orphan: true
