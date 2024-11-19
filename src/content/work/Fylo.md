@@ -12,4 +12,10 @@ tags:
   - Branding
 ---
 
-[link](https://chic-piroshki-d513dc.netlify.app/)
+## Fylo Dark Theme Landing Page
+
+Solved the challenge of designing a visually striking and functional dark theme landing page. By carefully considering typography, color scheme, and layout, I created a visually appealing and user-friendly experience. This project demonstrates my ability to translate design concepts into functional web experiences.
+
+Link from this platform [frontendmentor.io](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
+
+[Link to see](https://chic-piroshki-d513dc.netlify.app/)

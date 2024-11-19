@@ -12,6 +12,8 @@ tags:
   - Branding
 ---
 
+## Markethink
+
 The design emphasizes digital marketing services, with bold typography and engaging visuals. Key features include:
 
 - **Header Navigation**: Provides access to sections like Features, Pricing, About, and Contact.
@@ -20,3 +22,7 @@ The design emphasizes digital marketing services, with bold typography and engag
 - **Content Focus**: A clear message centered on "The Best Digital Marketing," with supporting text that highlights innovative and customer-focused strategies.
 
 This landing page demonstrates your frontend development expertise in crafting user-centric, visually appealing web designs.
+
+Link from [figma community](https://www.figma.com/community/file/1041354905405268202/digital-marketing-website)
+
+[Link to see](https://funny-lokum-c0e8c8.netlify.app/)
