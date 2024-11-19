@@ -10,5 +10,5 @@ export default defineConfig({
     }
   },
   site: 'https://simonescob.github.io/',
-  base: 'main',
+  // base: '',
 });
